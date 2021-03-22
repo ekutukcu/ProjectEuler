@@ -18,7 +18,7 @@ namespace ProjectEuler
             {
                 if (i <= 1)
                     continue;
-                var numberToCheck = i;
+                long numberToCheck = i;
                 int lengthOfSequence = 1;
                 while(numberToCheck != 1)
                 {
